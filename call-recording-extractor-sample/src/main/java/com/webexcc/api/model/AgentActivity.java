@@ -30,6 +30,7 @@ public class AgentActivity {
 	private String startTime;
 	private String endTime;
 	private String mmProfileType;
+	private String agentSessionId;
 
 	public boolean isActive() {
 		return active;
@@ -221,6 +222,14 @@ public class AgentActivity {
 
 	public void setMmProfileType(String mmProfileType) {
 		this.mmProfileType = mmProfileType;
+	}
+
+	public String getAgentSessionId() {
+		return agentSessionId;
+	}
+
+	public void setAgentSessionId(String agentSessionId) {
+		this.agentSessionId = agentSessionId;
 	}
 
 }

@@ -10,6 +10,7 @@ public class Capture {
 
 	private String taskId;
 	private List<Recording> recording;
+	private List<Transcription> transcription;
 
 	public String getTaskId() {
 		return taskId;
@@ -25,6 +26,14 @@ public class Capture {
 
 	public void setRecording(List<Recording> recording) {
 		this.recording = recording;
+	}
+
+	public List<Transcription> getTranscription() {
+		return transcription;
+	}
+
+	public void setTranscription(List<Transcription> transcription) {
+		this.transcription = transcription;
 	}
 
 }
